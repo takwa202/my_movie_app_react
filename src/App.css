@@ -1,0 +1,105 @@
+body{
+    background-color:  #0B3037 ;
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    background-color:  #0B3037;
+    justify-content: space-around;
+   position: absolute;
+   left :220px;
+   top: 150px;
+
+
+}
+.cardsbox{
+    background-color:  #0B3037;
+
+   
+    
+}
+
+.cd{
+    box-shadow: 0px 6px 10px 8px rgba(0, 0, 0, 0.954) ;
+    width: 330px;
+    height: 800px;
+    margin :20px;
+    background-color: white;
+
+   padding: 10px;
+
+
+}
+.cd:hover{
+    width:380px;
+    height:810px ;
+    transition:width height 0.5s linear 0s;
+    }
+.navbare{
+    background-color: rgb(19, 77, 88);
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    z-index: 10000;
+}
+.input1{
+    width: 300px;
+    position: absolute;
+    left : 250px;
+    top: 18.5px;
+   
+}
+.star{
+    position: absolute;
+    left: 1050px;
+    top: 15px;
+}
+form{
+padding: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0a7287;
+}
+
+
+.myButton {
+    position: fixed;
+    z-index: 1000000;
+    top: 15px;
+    left: 100px;
+	box-shadow: 0px 1px 0px 0px #295466;
+	background:linear-gradient(to bottom, #339dc3 5%, #064055 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #04395c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 27px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.desc{
+    display: flex;
+    margin: 70px;
+    background-color: #0c516a;
+    height: 550px;
+    width:90%;
+    padding: 30px;
+}
+pre:nth-child(2){
+   margin-left: 30px; 
+   margin-top: 40px;
+}
+
+    
